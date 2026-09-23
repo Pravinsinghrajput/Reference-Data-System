@@ -1,0 +1,21 @@
+# Secrets - never commit
+*.p8
+*.pem
+*.key
+.env
+*credentials*
+*secret*
+
+# Python / dbt (if added later)
+.venv/
+__pycache__/
+target/
+dbt_packages/
+logs/
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+*.swp
